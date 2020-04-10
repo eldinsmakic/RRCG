@@ -51,6 +51,9 @@
 		990B51662440C1DA00C122BC /* RRCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRCGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990B516A2440C1DA00C122BC /* RRCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRCGUITests.swift; sourceTree = "<group>"; };
 		990B516C2440C1DA00C122BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F2DDF72440C54600735735 /* RRCG_Ipad.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Ipad.xd; sourceTree = "<group>"; };
+		99F2DDF82440C54600735735 /* RRCG_Iphone.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Iphone.xd; sourceTree = "<group>"; };
+		99F2DDFA2440C58200735735 /* conceptionRRCG.mdj */ = {isa = PBXFileReference; lastKnownFileType = text; path = conceptionRRCG.mdj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		990B51392440C1D600C122BC = {
 			isa = PBXGroup;
 			children = (
+				99F2DDF92440C55900735735 /* Conception */,
+				990B51822440C46400C122BC /* Design  */,
 				990B51442440C1D600C122BC /* RRCG */,
 				990B515E2440C1DA00C122BC /* RRCGTests */,
 				990B51692440C1DA00C122BC /* RRCGUITests */,
@@ -129,6 +134,23 @@
 				990B516C2440C1DA00C122BC /* Info.plist */,
 			);
 			path = RRCGUITests;
+			sourceTree = "<group>";
+		};
+		990B51822440C46400C122BC /* Design  */ = {
+			isa = PBXGroup;
+			children = (
+				99F2DDF72440C54600735735 /* RRCG_Ipad.xd */,
+				99F2DDF82440C54600735735 /* RRCG_Iphone.xd */,
+			);
+			path = "Design ";
+			sourceTree = "<group>";
+		};
+		99F2DDF92440C55900735735 /* Conception */ = {
+			isa = PBXGroup;
+			children = (
+				99F2DDFA2440C58200735735 /* conceptionRRCG.mdj */,
+			);
+			path = Conception;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

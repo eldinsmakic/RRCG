@@ -292,13 +292,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJO-oP-50M">
-                                <rect key="frame" x="0.0" y="88" width="414" height="140"/>
+                                <rect key="frame" x="0.0" y="88" width="374.5" height="140"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NDD-Ex-JBB">
-                                        <rect key="frame" x="15" y="54" width="249" height="32.5"/>
+                                        <rect key="frame" x="15" y="54" width="209.5" height="32.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RRCG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvr-Z1-24G">
-                                                <rect key="frame" x="0.0" y="0.0" width="166" height="32.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="32.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="Nry-gl-6DS"/>
                                                 </constraints>
@@ -317,7 +317,7 @@
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9O-s5-CQJ">
-                                                <rect key="frame" x="167" y="6" width="1" height="20.5"/>
+                                                <rect key="frame" x="91" y="6" width="1" height="20.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="1" id="K12-vS-8KH"/>
@@ -337,7 +337,7 @@
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1y-Kk-ziL">
-                                                <rect key="frame" x="169" y="4" width="80" height="24"/>
+                                                <rect key="frame" x="93" y="4" width="116.5" height="24"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="axS-Gi-Ofd"/>
                                                 </constraints>
@@ -382,13 +382,13 @@
                                 </variation>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bP5-bB-XB9">
-                                <rect key="frame" x="0.0" y="227" width="414" height="635"/>
+                                <rect key="frame" x="0.0" y="227" width="374.5" height="635"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHe-1E-whV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374.5" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 1 ) Dismantle the car radio using a very rigid wire (or a nail) at the 4 holes in the front of the car radio :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWz-SW-UfN">
-                                                <rect key="frame" x="58" y="62" width="298" height="155"/>
+                                                <rect key="frame" x="58" y="62" width="258.5" height="155"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="155" id="O2T-rd-I9x"/>
                                                 </constraints>
@@ -397,14 +397,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radio" translatesAutoresizingMaskIntoConstraints="NO" id="xrW-Sv-zfZ">
-                                                <rect key="frame" x="-254" y="225" width="922" height="128"/>
+                                                <rect key="frame" x="-274" y="225" width="922" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xrW-Sv-zfZ" secondAttribute="height" multiplier="461:64" id="QFS-jZ-fW4"/>
                                                     <constraint firstAttribute="height" constant="128" id="UK5-kW-MnQ"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er6-RC-var">
-                                                <rect key="frame" x="79.5" y="376" width="255" height="117"/>
+                                                <rect key="frame" x="59.5" y="376" width="255" height="117"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="117" id="Qql-wT-CWa"/>
                                                     <constraint firstAttribute="width" constant="255" id="XfG-Su-WIY"/>
@@ -415,25 +415,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="precode" translatesAutoresizingMaskIntoConstraints="NO" id="PX3-vg-HER">
-                                                <rect key="frame" x="-254" y="517" width="922" height="128"/>
+                                                <rect key="frame" x="-274" y="517" width="922" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="PX3-vg-HER" secondAttribute="height" multiplier="461:64" id="120-zO-SgG"/>
                                                     <constraint firstAttribute="height" constant="128" id="3NT-GO-Gs3"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-so-Ti4">
-                                                <rect key="frame" x="79.5" y="677" width="255" height="117"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="255" id="7R3-WW-BCM"/>
-                                                    <constraint firstAttribute="height" constant="117" id="jw2-8Z-qZc"/>
-                                                </constraints>
-                                                <string key="text">2. Pull out the radio towards you to retrieve the pre-code on the back (1 letter 3 digits), for the picture below, the pre-code is for example "Y186":</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="av7-3a-z6i">
-                                                <rect key="frame" x="98.5" y="846" width="217" height="41"/>
+                                                <rect key="frame" x="78.5" y="739" width="217" height="41"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="41" id="FDk-Lg-046"/>
                                                     <constraint firstAttribute="width" constant="217" id="hPR-pO-pFT"/>
@@ -445,7 +434,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageTest" translatesAutoresizingMaskIntoConstraints="NO" id="5Y0-CS-ErP">
-                                                <rect key="frame" x="87" y="962" width="240" height="200"/>
+                                                <rect key="frame" x="78" y="852" width="200.5" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="DUV-I4-21f"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="lUQ-GU-jjK"/>
@@ -455,27 +444,25 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="32b-W7-hsL"/>
-                                            <constraint firstAttribute="trailing" secondItem="5Y0-CS-ErP" secondAttribute="trailing" constant="87" id="7jL-Ck-w5q"/>
-                                            <constraint firstItem="JbI-so-Ti4" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="90y-a3-lVU"/>
-                                            <constraint firstItem="JbI-so-Ti4" firstAttribute="top" secondItem="PX3-vg-HER" secondAttribute="bottom" constant="32" id="AYA-R9-Kqk"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Y0-CS-ErP" secondAttribute="trailing" constant="96" id="7jL-Ck-w5q"/>
                                             <constraint firstItem="YWz-SW-UfN" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="BHd-p8-DTt"/>
-                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="top" secondItem="av7-3a-z6i" secondAttribute="bottom" constant="75" id="GfO-WL-YE3"/>
+                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="top" secondItem="av7-3a-z6i" secondAttribute="bottom" constant="72" id="GfO-WL-YE3"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="top" secondItem="Er6-RC-var" secondAttribute="bottom" constant="24" id="IMt-vB-caB"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="IvK-7v-0W4"/>
-                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="leading" secondItem="PHe-1E-whV" secondAttribute="leading" constant="87" id="PVI-wm-pSD"/>
+                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="leading" secondItem="PHe-1E-whV" secondAttribute="leading" constant="78" id="PVI-wm-pSD"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="TXS-YU-dGV"/>
                                             <constraint firstAttribute="trailing" secondItem="YWz-SW-UfN" secondAttribute="trailing" constant="58" id="Tqe-Mz-Ip7"/>
-                                            <constraint firstItem="av7-3a-z6i" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="VLb-Xk-57J"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="Yhl-2M-jBi"/>
+                                            <constraint firstItem="av7-3a-z6i" firstAttribute="top" secondItem="PX3-vg-HER" secondAttribute="bottom" constant="94" id="YwR-gR-ctI"/>
                                             <constraint firstItem="Er6-RC-var" firstAttribute="top" secondItem="xrW-Sv-zfZ" secondAttribute="bottom" constant="23" id="ZoD-mh-Dk5"/>
                                             <constraint firstItem="YWz-SW-UfN" firstAttribute="top" secondItem="PHe-1E-whV" secondAttribute="top" constant="62" id="az7-i0-jdo"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="fQj-0J-1YF"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="width" secondItem="xrW-Sv-zfZ" secondAttribute="width" id="gAj-aX-KmX"/>
+                                            <constraint firstItem="av7-3a-z6i" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="ik2-KA-Kv4"/>
                                             <constraint firstItem="Er6-RC-var" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="j9v-g9-7JA"/>
                                             <constraint firstItem="YWz-SW-UfN" firstAttribute="leading" secondItem="PHe-1E-whV" secondAttribute="leading" constant="58" id="l5H-Wo-xMd"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="top" secondItem="Er6-RC-var" secondAttribute="bottom" constant="24" id="laD-64-7w2"/>
                                             <constraint firstItem="Er6-RC-var" firstAttribute="top" secondItem="xrW-Sv-zfZ" secondAttribute="bottom" constant="23" id="ozV-HO-LeY"/>
-                                            <constraint firstItem="av7-3a-z6i" firstAttribute="top" secondItem="JbI-so-Ti4" secondAttribute="bottom" constant="52" id="suR-GB-ap0"/>
                                         </constraints>
                                     </view>
                                 </subviews>

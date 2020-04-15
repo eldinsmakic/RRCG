@@ -33,20 +33,6 @@
 			remoteGlobalIDString = 990B51412440C1D600C122BC;
 			remoteInfo = RRCG;
 		};
-		9998AFBB2443598600EB48A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 990B513A2440C1D600C122BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9998AFA12443598300EB48A8;
-			remoteInfo = Target12AndBelow;
-		};
-		9998AFC62443598600EB48A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 990B513A2440C1D600C122BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9998AFA12443598300EB48A8;
-			remoteInfo = Target12AndBelow;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +51,6 @@
 		990B51662440C1DA00C122BC /* RRCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRCGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990B516A2440C1DA00C122BC /* RRCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRCGUITests.swift; sourceTree = "<group>"; };
 		990B516C2440C1DA00C122BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9998AFA22443598300EB48A8 /* Target12AndBelow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Target12AndBelow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9998AFBA2443598600EB48A8 /* Target12AndBelowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Target12AndBelowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9998AFC52443598600EB48A8 /* Target12AndBelowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Target12AndBelowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F2DDF72440C54600735735 /* RRCG_Ipad.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Ipad.xd; sourceTree = "<group>"; };
 		99F2DDF82440C54600735735 /* RRCG_Iphone.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Iphone.xd; sourceTree = "<group>"; };
 		99F2DDFA2440C58200735735 /* conceptionRRCG.mdj */ = {isa = PBXFileReference; lastKnownFileType = text; path = conceptionRRCG.mdj; sourceTree = "<group>"; };
@@ -95,27 +78,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9998AF9F2443598300EB48A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFB72443598600EB48A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFC22443598600EB48A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,9 +99,6 @@
 				990B51422440C1D600C122BC /* RRCG.app */,
 				990B515B2440C1DA00C122BC /* RRCGTests.xctest */,
 				990B51662440C1DA00C122BC /* RRCGUITests.xctest */,
-				9998AFA22443598300EB48A8 /* Target12AndBelow.app */,
-				9998AFBA2443598600EB48A8 /* Target12AndBelowTests.xctest */,
-				9998AFC52443598600EB48A8 /* Target12AndBelowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,59 +209,6 @@
 			productReference = 990B51662440C1DA00C122BC /* RRCGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		9998AFA12443598300EB48A8 /* Target12AndBelow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9998AFD22443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelow" */;
-			buildPhases = (
-				9998AF9E2443598300EB48A8 /* Sources */,
-				9998AF9F2443598300EB48A8 /* Frameworks */,
-				9998AFA02443598300EB48A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Target12AndBelow;
-			productName = Target12AndBelow;
-			productReference = 9998AFA22443598300EB48A8 /* Target12AndBelow.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9998AFB92443598600EB48A8 /* Target12AndBelowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9998AFD32443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelowTests" */;
-			buildPhases = (
-				9998AFB62443598600EB48A8 /* Sources */,
-				9998AFB72443598600EB48A8 /* Frameworks */,
-				9998AFB82443598600EB48A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9998AFBC2443598600EB48A8 /* PBXTargetDependency */,
-			);
-			name = Target12AndBelowTests;
-			productName = Target12AndBelowTests;
-			productReference = 9998AFBA2443598600EB48A8 /* Target12AndBelowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9998AFC42443598600EB48A8 /* Target12AndBelowUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9998AFD42443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelowUITests" */;
-			buildPhases = (
-				9998AFC12443598600EB48A8 /* Sources */,
-				9998AFC22443598600EB48A8 /* Frameworks */,
-				9998AFC32443598600EB48A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9998AFC72443598600EB48A8 /* PBXTargetDependency */,
-			);
-			name = Target12AndBelowUITests;
-			productName = Target12AndBelowUITests;
-			productReference = 9998AFC52443598600EB48A8 /* Target12AndBelowUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,17 +230,6 @@
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 990B51412440C1D600C122BC;
 					};
-					9998AFA12443598300EB48A8 = {
-						CreatedOnToolsVersion = 11.3;
-					};
-					9998AFB92443598600EB48A8 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 9998AFA12443598300EB48A8;
-					};
-					9998AFC42443598600EB48A8 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 9998AFA12443598300EB48A8;
-					};
 				};
 			};
 			buildConfigurationList = 990B513D2440C1D600C122BC /* Build configuration list for PBXProject "RRCG" */;
@@ -353,9 +248,6 @@
 				990B51412440C1D600C122BC /* RRCG */,
 				990B515A2440C1DA00C122BC /* RRCGTests */,
 				990B51652440C1DA00C122BC /* RRCGUITests */,
-				9998AFA12443598300EB48A8 /* Target12AndBelow */,
-				9998AFB92443598600EB48A8 /* Target12AndBelowTests */,
-				9998AFC42443598600EB48A8 /* Target12AndBelowUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,27 +271,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		990B51642440C1DA00C122BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFA02443598300EB48A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFB82443598600EB48A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFC32443598600EB48A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,27 +307,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9998AF9E2443598300EB48A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFB62443598600EB48A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9998AFC12443598600EB48A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -469,16 +319,6 @@
 			isa = PBXTargetDependency;
 			target = 990B51412440C1D600C122BC /* RRCG */;
 			targetProxy = 990B51672440C1DA00C122BC /* PBXContainerItemProxy */;
-		};
-		9998AFBC2443598600EB48A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9998AFA12443598300EB48A8 /* Target12AndBelow */;
-			targetProxy = 9998AFBB2443598600EB48A8 /* PBXContainerItemProxy */;
-		};
-		9998AFC72443598600EB48A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9998AFA12443598300EB48A8 /* Target12AndBelow */;
-			targetProxy = 9998AFC62443598600EB48A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -736,124 +576,6 @@
 			};
 			name = Release;
 		};
-		9998AFCC2443598600EB48A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9998AFCD2443598600EB48A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9998AFCE2443598600EB48A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelowTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Target12AndBelow.app/Target12AndBelow";
-			};
-			name = Debug;
-		};
-		9998AFCF2443598600EB48A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelowTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Target12AndBelow.app/Target12AndBelow";
-			};
-			name = Release;
-		};
-		9998AFD02443598600EB48A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Target12AndBelow;
-			};
-			name = Debug;
-		};
-		9998AFD12443598600EB48A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PL39FQM22S;
-				INFOPLIST_FILE = Target12AndBelowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smakic.eldin.Target12AndBelowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Target12AndBelow;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -889,33 +611,6 @@
 			buildConfigurations = (
 				990B51762440C1DA00C122BC /* Debug */,
 				990B51772440C1DA00C122BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9998AFD22443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9998AFCC2443598600EB48A8 /* Debug */,
-				9998AFCD2443598600EB48A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9998AFD32443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9998AFCE2443598600EB48A8 /* Debug */,
-				9998AFCF2443598600EB48A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9998AFD42443598600EB48A8 /* Build configuration list for PBXNativeTarget "Target12AndBelowUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9998AFD02443598600EB48A8 /* Debug */,
-				9998AFD12443598600EB48A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

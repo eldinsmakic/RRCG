@@ -38,6 +38,9 @@ class CodeGeneratorTest: XCTestCase {
         XCTAssertFalse(self.codeGenerator.isAPrecode(precode: "AB23"))
         XCTAssertFalse(self.codeGenerator.isAPrecode(precode: "A°°P2"))
         XCTAssertTrue(self.codeGenerator.isAPrecode(precode: "a245"))
+        XCTAssertTrue(self.codeGenerator.isAPrecode(precode: " a245 "))
+        XCTAssertTrue(self.codeGenerator.isAPrecode(precode: " a245"))
+        XCTAssertTrue(self.codeGenerator.isAPrecode(precode: " a245    "))
     }
 
     func testGenerateCodeFromPrecode()

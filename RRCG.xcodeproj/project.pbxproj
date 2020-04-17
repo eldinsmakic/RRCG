@@ -15,7 +15,14 @@
 		990B51552440C1D900C122BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990B51532440C1D900C122BC /* LaunchScreen.storyboard */; };
 		990B51602440C1DA00C122BC /* RRCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B515F2440C1DA00C122BC /* RRCGTests.swift */; };
 		990B516B2440C1DA00C122BC /* RRCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B516A2440C1DA00C122BC /* RRCGUITests.swift */; };
-		9913BF4A2447AA7100BB4ACA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913BF492447AA7100BB4ACA /* MainVC.swift */; };
+		9952367D244A255E001571D2 /* FetchCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952367B244A255E001571D2 /* FetchCodeFile.swift */; };
+		9952367E244A255E001571D2 /* FetchCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952367C244A255E001571D2 /* FetchCode.swift */; };
+		99523681244A25A9001571D2 /* ressources in Resources */ = {isa = PBXBuildFile; fileRef = 99523680244A25A9001571D2 /* ressources */; };
+		99D16071244882F0009AD480 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16070244882F0009AD480 /* MainVC.swift */; };
+		99D160732448CB1A009AD480 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D160722448CB1A009AD480 /* CodeGenerator.swift */; };
+		99D160752448CE44009AD480 /* CodeGeneratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D160742448CE44009AD480 /* CodeGeneratorTest.swift */; };
+		99D1607F2448D1E1009AD480 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 99D1607E2448D1E1009AD480 /* .swiftlint.yml */; };
+		99D16084244A01BC009AD480 /* FetchCodeFileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16083244A01BC009AD480 /* FetchCodeFileTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +57,14 @@
 		990B51662440C1DA00C122BC /* RRCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRCGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990B516A2440C1DA00C122BC /* RRCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRCGUITests.swift; sourceTree = "<group>"; };
 		990B516C2440C1DA00C122BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9913BF492447AA7100BB4ACA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9952367B244A255E001571D2 /* FetchCodeFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCodeFile.swift; sourceTree = "<group>"; };
+		9952367C244A255E001571D2 /* FetchCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCode.swift; sourceTree = "<group>"; };
+		99523680244A25A9001571D2 /* ressources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ressources; sourceTree = "<group>"; };
+		99D16070244882F0009AD480 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		99D160722448CB1A009AD480 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
+		99D160742448CE44009AD480 /* CodeGeneratorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorTest.swift; sourceTree = "<group>"; };
+		99D1607E2448D1E1009AD480 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		99D16083244A01BC009AD480 /* FetchCodeFileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCodeFileTest.swift; sourceTree = "<group>"; };
 		99F2DDF72440C54600735735 /* RRCG_Ipad.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Ipad.xd; sourceTree = "<group>"; };
 		99F2DDF82440C54600735735 /* RRCG_Iphone.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RRCG_Iphone.xd; sourceTree = "<group>"; };
 		99F2DDFA2440C58200735735 /* conceptionRRCG.mdj */ = {isa = PBXFileReference; lastKnownFileType = text; path = conceptionRRCG.mdj; sourceTree = "<group>"; };
@@ -84,6 +98,7 @@
 		990B51392440C1D600C122BC = {
 			isa = PBXGroup;
 			children = (
+				99D1607E2448D1E1009AD480 /* .swiftlint.yml */,
 				99F2DDF92440C55900735735 /* Conception */,
 				990B51822440C46400C122BC /* Design  */,
 				990B51442440C1D600C122BC /* RRCG */,
@@ -106,7 +121,10 @@
 		990B51442440C1D600C122BC /* RRCG */ = {
 			isa = PBXGroup;
 			children = (
-				9913BF492447AA7100BB4ACA /* MainVC.swift */,
+				99523682244A5CB6001571D2 /* CodeGenerator */,
+				99523680244A25A9001571D2 /* ressources */,
+				99D160762448CFAA009AD480 /* FetchCode */,
+				99D16070244882F0009AD480 /* MainVC.swift */,
 				990B51452440C1D600C122BC /* AppDelegate.swift */,
 				990B51472440C1D600C122BC /* SceneDelegate.swift */,
 				990B514B2440C1D600C122BC /* Main.storyboard */,
@@ -123,6 +141,8 @@
 			children = (
 				990B515F2440C1DA00C122BC /* RRCGTests.swift */,
 				990B51612440C1DA00C122BC /* Info.plist */,
+				99D160742448CE44009AD480 /* CodeGeneratorTest.swift */,
+				99D16083244A01BC009AD480 /* FetchCodeFileTest.swift */,
 			);
 			path = RRCGTests;
 			sourceTree = "<group>";
@@ -145,6 +165,23 @@
 			path = "Design ";
 			sourceTree = "<group>";
 		};
+		99523682244A5CB6001571D2 /* CodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				99D160722448CB1A009AD480 /* CodeGenerator.swift */,
+			);
+			path = CodeGenerator;
+			sourceTree = "<group>";
+		};
+		99D160762448CFAA009AD480 /* FetchCode */ = {
+			isa = PBXGroup;
+			children = (
+				9952367C244A255E001571D2 /* FetchCode.swift */,
+				9952367B244A255E001571D2 /* FetchCodeFile.swift */,
+			);
+			path = FetchCode;
+			sourceTree = "<group>";
+		};
 		99F2DDF92440C55900735735 /* Conception */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +200,7 @@
 				990B513E2440C1D600C122BC /* Sources */,
 				990B513F2440C1D600C122BC /* Frameworks */,
 				990B51402440C1D600C122BC /* Resources */,
+				99D1607B2448D0F6009AD480 /* swiftLint */,
 			);
 			buildRules = (
 			);
@@ -257,9 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D1607F2448D1E1009AD480 /* .swiftlint.yml in Resources */,
 				990B51552440C1D900C122BC /* LaunchScreen.storyboard in Resources */,
 				990B51522440C1D900C122BC /* Assets.xcassets in Resources */,
 				990B514D2440C1D600C122BC /* Main.storyboard in Resources */,
+				99523681244A25A9001571D2 /* ressources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,15 +319,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99D1607B2448D0F6009AD480 /* swiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		990B513E2440C1D600C122BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				990B51462440C1D600C122BC /* AppDelegate.swift in Sources */,
-				9913BF4A2447AA7100BB4ACA /* MainVC.swift in Sources */,
+				9952367D244A255E001571D2 /* FetchCodeFile.swift in Sources */,
+				99D16071244882F0009AD480 /* MainVC.swift in Sources */,
+				99D160732448CB1A009AD480 /* CodeGenerator.swift in Sources */,
 				990B51482440C1D600C122BC /* SceneDelegate.swift in Sources */,
 				990B51502440C1D600C122BC /* RRCG.xcdatamodeld in Sources */,
+				9952367E244A255E001571D2 /* FetchCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D16084244A01BC009AD480 /* FetchCodeFileTest.swift in Sources */,
+				99D160752448CE44009AD480 /* CodeGeneratorTest.swift in Sources */,
 				990B51602440C1DA00C122BC /* RRCGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

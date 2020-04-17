@@ -18,25 +18,20 @@ class FetchCodeFile: FetchCode
     }
 
     func getData() -> [Code] {
+       if let url = Bundle.main.url(forResource: self.fileName, withExtension: "json") {
+           do
+           {
+                debugPrint(url.absoluteURL)
+               let data = try Data(contentsOf: url)
+               let decoder = JSONDecoder()
+               let jsonData: [Code] = try decoder.decode([Code].self, from: data)
+               return jsonData
+           } catch {
+               print("error:\(error)")
+               return [Code]()
+           }
+       }
        return [Code]()
     }
-
-    func loadJson() -> [Code]
-    {
-        if let url = Bundle.main.url(forResource: self.fileName, withExtension: "json") {
-            do
-            {
-                let data = try Data(contentsOf: url)
-                let decoder = JSONDecoder()
-                let jsonData: [Code] = try decoder.decode([Code].self, from: data)
-                return jsonData
-            } catch {
-                print("error:\(error)")
-            }
-        }
-        return [Code]()
-    }
-
-
 
 }

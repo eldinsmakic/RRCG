@@ -43,6 +43,7 @@ class CodeGeneratorTest: XCTestCase {
     func testGenerateCodeFromPrecode()
     {
         XCTAssertEqual("0070", self.codeGenerator.generateCodeFromPrecode("A100"))
+        XCTAssertEqual("0060", self.codeGenerator.generateCodeFromPrecode("Z999"))
     }
 
     func testPerformanceExample() {

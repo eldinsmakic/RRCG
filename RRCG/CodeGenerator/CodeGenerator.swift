@@ -8,6 +8,8 @@
 
 import Foundation
 
+/// Transform a precode into a code, can verify if a String is a real precode and purify it
+/// use a FetchCode to get list of precode and code
 class CodeGenerator
 {
     let codeDataFetch: FetchCode
@@ -19,6 +21,8 @@ class CodeGenerator
         self.codes = self.codeDataFetch.getData()
     }
 
+    /// check if precode is a precode
+    /// param precode : a String that can be a precode
     func isAPrecode(precode: String) -> Bool
     {
          let range = NSRange(location: 0, length: precode.count)
@@ -31,7 +35,9 @@ class CodeGenerator
              return false
          }
     }
-
+    
+    /// Create a code from a precode
+    /// param _ : the precode to be transform
     func generateCodeFromPrecode(_ precode: String) -> String
     {
         let length = codes.count

@@ -121,10 +121,10 @@
 		990B51442440C1D600C122BC /* RRCG */ = {
 			isa = PBXGroup;
 			children = (
+				99523682244A5CB6001571D2 /* CodeGenerator */,
 				99523680244A25A9001571D2 /* ressources */,
 				99D160762448CFAA009AD480 /* FetchCode */,
 				99D16070244882F0009AD480 /* MainVC.swift */,
-				99D160722448CB1A009AD480 /* CodeGenerator.swift */,
 				990B51452440C1D600C122BC /* AppDelegate.swift */,
 				990B51472440C1D600C122BC /* SceneDelegate.swift */,
 				990B514B2440C1D600C122BC /* Main.storyboard */,
@@ -163,6 +163,14 @@
 				99F2DDF82440C54600735735 /* RRCG_Iphone.xd */,
 			);
 			path = "Design ";
+			sourceTree = "<group>";
+		};
+		99523682244A5CB6001571D2 /* CodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				99D160722448CB1A009AD480 /* CodeGenerator.swift */,
+			);
+			path = CodeGenerator;
 			sourceTree = "<group>";
 		};
 		99D160762448CFAA009AD480 /* FetchCode */ = {

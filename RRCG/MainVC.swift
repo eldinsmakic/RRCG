@@ -59,7 +59,7 @@ class MainVC: UIViewController {
         self.present(alert, animated: true)
     }
 
-    func constructAlertMessage(title: String,message: String) -> UIAlertController
+    func constructAlertMessage(title: String, message: String) -> UIAlertController
     {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

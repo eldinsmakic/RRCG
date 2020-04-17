@@ -8,6 +8,8 @@
 
 import Foundation
 
+/// FetchCode give CodeGenerator
+/// data [Code] that CodeGenerator can create Code from it
 protocol FetchCode
 {
     func getData() -> [Code]

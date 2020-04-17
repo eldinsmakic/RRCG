@@ -8,15 +8,18 @@
 
 import Foundation
 
+/// FetchCodeFile gather data from a file, data of type [code]
 class FetchCodeFile: FetchCode
 {
     let fileName: String
 
+    /// param filename: file to gather data
     init(fileName: String)
     {
         self.fileName = fileName
     }
 
+    /// Gather data from a file
     func getData() -> [Code] {
        if let url = Bundle.main.url(forResource: self.fileName, withExtension: "json") {
            do

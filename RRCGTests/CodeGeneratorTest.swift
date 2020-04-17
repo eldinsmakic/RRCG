@@ -49,6 +49,14 @@ class CodeGeneratorTest: XCTestCase {
         XCTAssertEqual("0060", self.codeGenerator.generateCodeFromPrecode("Z999"))
     }
 
+    func testPurifyPrecode()
+    {
+        XCTAssertEqual("A124", self.codeGenerator.purrifyPrecode(precode: "  a124  "))
+        XCTAssertEqual("A124", self.codeGenerator.purrifyPrecode(precode: "A124"))
+        XCTAssertEqual("A124", self.codeGenerator.purrifyPrecode(precode: "a124"))
+        XCTAssertNotEqual("A124", self.codeGenerator.purrifyPrecode(precode: "a125"))
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

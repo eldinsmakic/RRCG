@@ -49,4 +49,15 @@ class CodeGenerator
         indicePrecode -= 1
         return codeNotFind ?  "" : codes[indicePrecode].code
     }
+
+    /// remove all impurity of a precode
+    /// Space before and after precode
+    /// Uppercase it
+    /// - Parameter precode: precode to purify
+    func purrifyPrecode(precode: String) -> String
+    {
+        var result = precode.uppercased()
+        result = result.trimmingCharacters(in: .whitespaces)
+        return result
+    }
 }

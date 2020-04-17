@@ -34,7 +34,7 @@ class MainVC: UIViewController {
         var precode = precodeTextField.text!
         if codeGenerator.isAPrecode(precode: precode)
         {
-            precode = precode.uppercased()
+            precode = codeGenerator.purrifyPrecode(precode: precode)
             let code = codeGenerator.generateCodeFromPrecode(precode)
             showCodeGenerated(code: code)
         }
@@ -58,7 +58,7 @@ class MainVC: UIViewController {
         let alert = self.constructAlertMessage(title: "RRCG Error", message: message)
         self.present(alert, animated: true)
     }
-    
+
     func constructAlertMessage(title: String,message: String) -> UIAlertController
     {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)

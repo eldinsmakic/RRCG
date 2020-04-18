@@ -24,7 +24,6 @@ class FetchCodeFile: FetchCode
        if let url = Bundle.main.url(forResource: self.fileName, withExtension: "json") {
            do
            {
-                debugPrint(url.absoluteURL)
                let data = try Data(contentsOf: url)
                let decoder = JSONDecoder()
                let jsonData: [Code] = try decoder.decode([Code].self, from: data)

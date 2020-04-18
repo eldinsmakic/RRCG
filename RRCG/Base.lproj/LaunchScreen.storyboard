@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Renault Radio Code Generator" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjX-ob-ne9">
-                                <rect key="frame" x="32" y="253" width="200" height="205.33333333333337"/>
+                                <rect key="frame" x="32" y="253" width="200" height="298"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="cae-qT-k8a"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                                         <exclude reference="cae-qT-k8a"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="cae-qT-k8a"/>
                                     </mask>
@@ -39,22 +39,19 @@
                         <constraints>
                             <constraint firstItem="UjX-ob-ne9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="209" id="EWN-qh-799"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UjX-ob-ne9" secondAttribute="bottom" constant="311" id="Lgy-uo-gaE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UjX-ob-ne9" secondAttribute="trailing" constant="193" id="WlB-Gx-w5p"/>
                             <constraint firstItem="UjX-ob-ne9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="von-xH-dqJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Lgy-uo-gaE"/>
-                                <exclude reference="WlB-Gx-w5p"/>
                                 <exclude reference="EWN-qh-799"/>
                                 <exclude reference="von-xH-dqJ"/>
                             </mask>
                         </variation>
-                        <variation key="widthClass=compact">
+                        <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <exclude reference="Lgy-uo-gaE"/>
-                                <exclude reference="WlB-Gx-w5p"/>
+                                <include reference="Lgy-uo-gaE"/>
                                 <include reference="EWN-qh-799"/>
                                 <include reference="von-xH-dqJ"/>
                             </mask>

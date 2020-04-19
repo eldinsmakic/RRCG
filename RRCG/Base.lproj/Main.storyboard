@@ -215,15 +215,12 @@
                                 <exclude reference="aUh-0d-aVh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="99M-wc-N0r"/>
-                                <exclude reference="KtP-df-hdq"/>
-                                <exclude reference="NaJ-x7-sKe"/>
-                                <exclude reference="Qbo-7d-5EL"/>
-                                <exclude reference="aU6-nC-2pW"/>
-                                <exclude reference="zgc-dX-p9o"/>
                                 <exclude reference="CfS-r7-iLX"/>
                                 <exclude reference="mca-Fu-Pal"/>
                                 <exclude reference="rA7-Uj-ja5"/>
+                                <exclude reference="99M-wc-N0r"/>
+                                <exclude reference="KtP-df-hdq"/>
+                                <exclude reference="NaJ-x7-sKe"/>
                                 <exclude reference="VqF-0c-fZt"/>
                                 <exclude reference="Xbw-Vu-pzA"/>
                                 <exclude reference="zDq-TA-iN9"/>
@@ -232,6 +229,9 @@
                                 <exclude reference="0Yu-f9-rpc"/>
                                 <exclude reference="3rU-Ln-yFT"/>
                                 <exclude reference="XSs-4Y-XOZ"/>
+                                <exclude reference="Qbo-7d-5EL"/>
+                                <exclude reference="aU6-nC-2pW"/>
+                                <exclude reference="zgc-dX-p9o"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -243,15 +243,12 @@
                                 <include reference="aUh-0d-aVh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="99M-wc-N0r"/>
-                                <include reference="KtP-df-hdq"/>
-                                <include reference="NaJ-x7-sKe"/>
-                                <include reference="Qbo-7d-5EL"/>
-                                <include reference="aU6-nC-2pW"/>
-                                <include reference="zgc-dX-p9o"/>
                                 <include reference="CfS-r7-iLX"/>
                                 <include reference="mca-Fu-Pal"/>
                                 <include reference="rA7-Uj-ja5"/>
+                                <include reference="99M-wc-N0r"/>
+                                <include reference="KtP-df-hdq"/>
+                                <include reference="NaJ-x7-sKe"/>
                                 <include reference="VqF-0c-fZt"/>
                                 <include reference="Xbw-Vu-pzA"/>
                                 <include reference="zDq-TA-iN9"/>
@@ -260,6 +257,9 @@
                                 <include reference="0Yu-f9-rpc"/>
                                 <include reference="3rU-Ln-yFT"/>
                                 <include reference="XSs-4Y-XOZ"/>
+                                <include reference="Qbo-7d-5EL"/>
+                                <include reference="aU6-nC-2pW"/>
+                                <include reference="zgc-dX-p9o"/>
                             </mask>
                         </variation>
                     </view>
@@ -272,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="402.89855072463769" y="138.61607142857142"/>
         </scene>
-        <!--MainVC-->
+        <!--TutorialVC-->
         <scene sceneID="2Zq-Pw-Qxc">
             <objects>
-                <viewController id="Kkc-Du-wiZ" customClass="MainVC" customModule="RRCG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Kkc-Du-wiZ" customClass="TutorialVC" customModule="RRCG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vt6-eK-iJw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -486,35 +486,27 @@
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageTest" translatesAutoresizingMaskIntoConstraints="NO" id="5Y0-CS-ErP">
-                                                <rect key="frame" x="78" y="852" width="146" height="200"/>
+                                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAc-uS-zCl">
+                                                <rect key="frame" x="40" y="888" width="240" height="128"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="DUV-I4-21f"/>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="lUQ-GU-jjK"/>
+                                                    <constraint firstAttribute="width" constant="240" id="3NF-Bk-bTh"/>
+                                                    <constraint firstAttribute="width" secondItem="ZAc-uS-zCl" secondAttribute="height" multiplier="15:8" id="AwU-dT-ieA"/>
                                                 </constraints>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="DUV-I4-21f"/>
-                                                        <exclude reference="lUQ-GU-jjK"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="heightClass=regular-widthClass=compact">
-                                                    <mask key="constraints">
-                                                        <include reference="DUV-I4-21f"/>
-                                                        <include reference="lUQ-GU-jjK"/>
-                                                    </mask>
-                                                </variation>
-                                            </imageView>
+                                                <wkWebViewConfiguration key="configuration">
+                                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                                    <wkPreferences key="preferences"/>
+                                                </wkWebViewConfiguration>
+                                            </wkWebView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
+                                            <constraint firstItem="ZAc-uS-zCl" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="0qe-sd-CZa"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="32b-W7-hsL"/>
-                                            <constraint firstAttribute="trailing" secondItem="5Y0-CS-ErP" secondAttribute="trailing" constant="96" id="7jL-Ck-w5q"/>
                                             <constraint firstItem="YWz-SW-UfN" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="BHd-p8-DTt"/>
-                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="top" secondItem="av7-3a-z6i" secondAttribute="bottom" constant="72" id="GfO-WL-YE3"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="top" secondItem="Er6-RC-var" secondAttribute="bottom" constant="24" id="IMt-vB-caB"/>
+                                            <constraint firstItem="ZAc-uS-zCl" firstAttribute="top" secondItem="av7-3a-z6i" secondAttribute="bottom" constant="108" id="IPE-aI-hEE"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="IvK-7v-0W4"/>
-                                            <constraint firstItem="5Y0-CS-ErP" firstAttribute="leading" secondItem="PHe-1E-whV" secondAttribute="leading" constant="78" id="PVI-wm-pSD"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="TXS-YU-dGV"/>
                                             <constraint firstAttribute="trailing" secondItem="YWz-SW-UfN" secondAttribute="trailing" constant="58" id="Tqe-Mz-Ip7"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="Yhl-2M-jBi"/>
@@ -522,6 +514,7 @@
                                             <constraint firstItem="Er6-RC-var" firstAttribute="top" secondItem="xrW-Sv-zfZ" secondAttribute="bottom" constant="23" id="ZoD-mh-Dk5"/>
                                             <constraint firstItem="YWz-SW-UfN" firstAttribute="top" secondItem="PHe-1E-whV" secondAttribute="top" constant="62" id="az7-i0-jdo"/>
                                             <constraint firstItem="xrW-Sv-zfZ" firstAttribute="top" secondItem="YWz-SW-UfN" secondAttribute="bottom" constant="8" id="fQj-0J-1YF"/>
+                                            <constraint firstItem="ZAc-uS-zCl" firstAttribute="width" secondItem="PHe-1E-whV" secondAttribute="width" multiplier="0.75" id="fuQ-GP-Z8m"/>
                                             <constraint firstItem="PX3-vg-HER" firstAttribute="width" secondItem="xrW-Sv-zfZ" secondAttribute="width" id="gAj-aX-KmX"/>
                                             <constraint firstItem="av7-3a-z6i" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="ik2-KA-Kv4"/>
                                             <constraint firstItem="Er6-RC-var" firstAttribute="centerX" secondItem="PHe-1E-whV" secondAttribute="centerX" id="j9v-g9-7JA"/>
@@ -536,7 +529,6 @@
                                                 <exclude reference="Er6-RC-var"/>
                                                 <exclude reference="PX3-vg-HER"/>
                                                 <exclude reference="av7-3a-z6i"/>
-                                                <exclude reference="5Y0-CS-ErP"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <exclude reference="BHd-p8-DTt"/>
@@ -556,9 +548,6 @@
                                                 <exclude reference="laD-64-7w2"/>
                                                 <exclude reference="YwR-gR-ctI"/>
                                                 <exclude reference="ik2-KA-Kv4"/>
-                                                <exclude reference="7jL-Ck-w5q"/>
-                                                <exclude reference="GfO-WL-YE3"/>
-                                                <exclude reference="PVI-wm-pSD"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
@@ -568,7 +557,6 @@
                                                 <include reference="Er6-RC-var"/>
                                                 <include reference="PX3-vg-HER"/>
                                                 <include reference="av7-3a-z6i"/>
-                                                <include reference="5Y0-CS-ErP"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <include reference="BHd-p8-DTt"/>
@@ -588,9 +576,6 @@
                                                 <include reference="laD-64-7w2"/>
                                                 <include reference="YwR-gR-ctI"/>
                                                 <include reference="ik2-KA-Kv4"/>
-                                                <include reference="7jL-Ck-w5q"/>
-                                                <include reference="GfO-WL-YE3"/>
-                                                <include reference="PVI-wm-pSD"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -671,6 +656,9 @@
                     <navigationItem key="navigationItem" id="SKZ-U1-ehA">
                         <barButtonItem key="backBarButtonItem" enabled="NO" title="dzq" id="sc0-4t-BLs"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="ZAc-uS-zCl" id="zvj-hD-8oy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adu-hs-bC8" sceneMemberID="firstResponder"/>
             </objects>
@@ -678,7 +666,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ImageTest" width="922" height="594"/>
         <image name="precode" width="1592" height="618"/>
         <image name="radio" width="592" height="386"/>
     </resources>

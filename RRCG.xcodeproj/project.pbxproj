@@ -20,6 +20,7 @@
 		99523681244A25A9001571D2 /* ressources in Resources */ = {isa = PBXBuildFile; fileRef = 99523680244A25A9001571D2 /* ressources */; };
 		99523684244B6DBD001571D2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 99523683244B6DBD001571D2 /* .travis.yml */; };
 		99523689244B8A37001571D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 99523688244B8A37001571D2 /* README.md */; };
+		9952369B244CD5C0001571D2 /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952369A244CD5C0001571D2 /* TutorialVC.swift */; };
 		99D16071244882F0009AD480 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16070244882F0009AD480 /* MainVC.swift */; };
 		99D160732448CB1A009AD480 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D160722448CB1A009AD480 /* CodeGenerator.swift */; };
 		99D160752448CE44009AD480 /* CodeGeneratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D160742448CE44009AD480 /* CodeGeneratorTest.swift */; };
@@ -64,6 +65,7 @@
 		99523680244A25A9001571D2 /* ressources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ressources; sourceTree = "<group>"; };
 		99523683244B6DBD001571D2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		99523688244B8A37001571D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9952369A244CD5C0001571D2 /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
 		99D16070244882F0009AD480 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		99D160722448CB1A009AD480 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
 		99D160742448CE44009AD480 /* CodeGeneratorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorTest.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				99523680244A25A9001571D2 /* ressources */,
 				99D160762448CFAA009AD480 /* FetchCode */,
 				99D16070244882F0009AD480 /* MainVC.swift */,
+				9952369A244CD5C0001571D2 /* TutorialVC.swift */,
 				990B51452440C1D600C122BC /* AppDelegate.swift */,
 				990B51472440C1D600C122BC /* SceneDelegate.swift */,
 				990B514B2440C1D600C122BC /* Main.storyboard */,
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9952369B244CD5C0001571D2 /* TutorialVC.swift in Sources */,
 				990B51462440C1D600C122BC /* AppDelegate.swift in Sources */,
 				9952367D244A255E001571D2 /* FetchCodeFile.swift in Sources */,
 				99D16071244882F0009AD480 /* MainVC.swift in Sources */,

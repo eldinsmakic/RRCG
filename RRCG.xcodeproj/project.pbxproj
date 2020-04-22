@@ -67,6 +67,7 @@
 		99523688244B8A37001571D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9952369A244CD5C0001571D2 /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
 		995236A224508022001571D2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		995236A324508283001571D2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		99D16070244882F0009AD480 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		99D160722448CB1A009AD480 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
 		99D160742448CE44009AD480 /* CodeGeneratorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorTest.swift; sourceTree = "<group>"; };
@@ -288,6 +289,7 @@
 				en,
 				Base,
 				fr,
+				de,
 			);
 			mainGroup = 990B51392440C1D600C122BC;
 			productRefGroup = 990B51432440C1D600C122BC /* Products */;
@@ -408,6 +410,7 @@
 			children = (
 				990B514C2440C1D600C122BC /* Base */,
 				995236A224508022001571D2 /* fr */,
+				995236A324508283001571D2 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

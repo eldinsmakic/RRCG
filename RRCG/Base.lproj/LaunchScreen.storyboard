@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,12 +12,13 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Renault Radio Code Generator" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjX-ob-ne9">
-                                <rect key="frame" x="32" y="253" width="200" height="298"/>
+                                <rect key="frame" x="415.5" y="580.5" width="193" height="205.5"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="Fur-12-gUf"/>
                                     <constraint firstAttribute="width" constant="200" id="cae-qT-k8a"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
@@ -25,6 +26,7 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="Fur-12-gUf"/>
                                         <exclude reference="cae-qT-k8a"/>
                                     </mask>
                                 </variation>
@@ -33,19 +35,28 @@
                                         <include reference="cae-qT-k8a"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Fur-12-gUf"/>
+                                    </mask>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="UjX-ob-ne9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="B0J-er-tg6"/>
                             <constraint firstItem="UjX-ob-ne9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="209" id="EWN-qh-799"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UjX-ob-ne9" secondAttribute="bottom" constant="311" id="Lgy-uo-gaE"/>
+                            <constraint firstItem="UjX-ob-ne9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gbr-C9-nJc"/>
                             <constraint firstItem="UjX-ob-ne9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="von-xH-dqJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Lgy-uo-gaE"/>
+                                <exclude reference="B0J-er-tg6"/>
                                 <exclude reference="EWN-qh-799"/>
+                                <exclude reference="gbr-C9-nJc"/>
                                 <exclude reference="von-xH-dqJ"/>
                             </mask>
                         </variation>
@@ -54,6 +65,12 @@
                                 <include reference="Lgy-uo-gaE"/>
                                 <include reference="EWN-qh-799"/>
                                 <include reference="von-xH-dqJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="B0J-er-tg6"/>
+                                <include reference="gbr-C9-nJc"/>
                             </mask>
                         </variation>
                     </view>

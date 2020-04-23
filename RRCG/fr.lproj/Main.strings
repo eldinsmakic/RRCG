@@ -9,7 +9,7 @@
 "Gvr-Z1-24G.text" = "RRCG";
 
 /* Class = "UILabel"; text = "          Tutorial"; ObjectID = "P1y-Kk-ziL"; */
-"P1y-Kk-ziL.text" = "          Tutoriel";
+"P1y-Kk-ziL.text" = "Tutoriel";
 
 /* Class = "UIButton"; normalTitle = "Validate"; ObjectID = "UTy-Wn-71N"; */
 "UTy-Wn-71N.normalTitle" = "Valider";

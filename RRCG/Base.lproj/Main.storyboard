@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8j-9Y-q4H">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <navigationController id="l8j-9Y-q4H" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5za-Mw-xGp">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -28,11 +28,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="RRCG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zy2-gC-7xy">
-                                <rect key="frame" x="0.0" y="88" width="414" height="140"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="140"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNy-WA-OyN">
                                         <rect key="frame" x="177" y="58" width="60" height="24"/>
@@ -193,7 +193,7 @@
                                 </variation>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Precode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQQ-IH-kgV">
-                                <rect key="frame" x="166" y="431" width="82" height="34"/>
+                                <rect key="frame" x="166" y="351" width="82" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="82" id="1LN-0n-Mi4"/>
                                     <constraint firstAttribute="width" constant="200" id="uYY-fY-eic"/>
@@ -219,7 +219,7 @@
                                 </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your precode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTb-d1-XHD">
-                                <rect key="frame" x="0.0" y="284" width="414" height="32.333333333333314"/>
+                                <rect key="frame" x="0.0" y="204" width="414" height="32.333333333333343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="555" id="26z-Au-Y5T"/>
                                     <constraint firstAttribute="height" constant="87" id="2jL-Em-N3i"/>
@@ -242,7 +242,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTy-Wn-71N">
-                                <rect key="frame" x="107" y="520" width="200" height="36"/>
+                                <rect key="frame" x="107" y="440" width="200" height="36"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="272" id="53M-ev-HM5"/>
@@ -276,7 +276,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUh-0d-aVh">
-                                <rect key="frame" x="0.0" y="654" width="414" height="146.66666666666663"/>
+                                <rect key="frame" x="0.0" y="574" width="414" height="100.66666666666663"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="tuY-1x-PNm"/>
                                 </constraints>
@@ -422,17 +422,16 @@
             <objects>
                 <viewController id="Kkc-Du-wiZ" customClass="TutorialVC" customModule="RRCG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vt6-eK-iJw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJO-oP-50M">
-                                <rect key="frame" x="0.0" y="88" width="414" height="140"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="140"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1y-Kk-ziL">
-                                        <rect key="frame" x="412" y="58" width="200" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1y-Kk-ziL">
+                                        <rect key="frame" x="171.33333333333334" y="58" width="71.666666666666657" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="TN6-MM-1h0"/>
-                                            <constraint firstAttribute="width" constant="80" id="axS-Gi-Ofd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -440,12 +439,6 @@
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="TN6-MM-1h0"/>
-                                                <exclude reference="axS-Gi-Ofd"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="axS-Gi-Ofd"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=regular">
@@ -528,8 +521,8 @@
                                     <constraint firstItem="P1y-Kk-ziL" firstAttribute="centerX" secondItem="KJO-oP-50M" secondAttribute="centerX" id="J0V-nk-w5A"/>
                                     <constraint firstItem="P1y-Kk-ziL" firstAttribute="centerY" secondItem="KJO-oP-50M" secondAttribute="centerY" id="VU9-nj-xeE"/>
                                     <constraint firstItem="NDD-Ex-JBB" firstAttribute="centerY" secondItem="KJO-oP-50M" secondAttribute="centerY" id="fHb-mx-5Ks"/>
-                                    <constraint firstItem="P1y-Kk-ziL" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="NDD-Ex-JBB" secondAttribute="trailing" constant="10" id="n3a-AT-eau">
-                                        <variation key="widthClass=compact" constant="100"/>
+                                    <constraint firstItem="P1y-Kk-ziL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NDD-Ex-JBB" secondAttribute="trailing" constant="10" id="n3a-AT-eau">
+                                        <variation key="widthClass=compact" constant="10"/>
                                     </constraint>
                                     <constraint firstItem="P1y-Kk-ziL" firstAttribute="centerX" secondItem="KJO-oP-50M" secondAttribute="centerX" id="os8-2v-qw3"/>
                                     <constraint firstItem="P1y-Kk-ziL" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NDD-Ex-JBB" secondAttribute="trailing" constant="10" id="shH-bw-tYg">
@@ -581,10 +574,10 @@
                                 </variation>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bP5-bB-XB9">
-                                <rect key="frame" x="0.0" y="227" width="414" height="635"/>
+                                <rect key="frame" x="0.0" y="227" width="414" height="509"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHe-1E-whV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="801.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 1 ) Dismantle the car radio using a very rigid wire (or a nail) at the 4 holes in the front of the car radio :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWz-SW-UfN">
                                                 <rect key="frame" x="58" y="62" width="298" height="155"/>
@@ -717,7 +710,7 @@
                                                 <rect key="frame" x="51.666666666666657" y="888" width="310.66666666666674" height="165.66666666666674"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="240" id="3NF-Bk-bTh"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="3NF-Bk-bTh"/>
                                                     <constraint firstAttribute="width" secondItem="ZAc-uS-zCl" secondAttribute="height" multiplier="15:8" id="AwU-dT-ieA"/>
                                                     <constraint firstAttribute="height" constant="384" id="Clk-XA-wCE"/>
                                                     <constraint firstAttribute="width" constant="946.5" id="Y80-h9-jIU"/>

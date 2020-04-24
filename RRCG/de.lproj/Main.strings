@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "HOME"; ObjectID = "DNy-WA-OyN"; */
+"DNy-WA-OyN.text" = "HOME";
+
+/* Class = "UILabel"; text = "2. Pull out the radio towards you to retrieve the pre-code on the back (1 letter 3 digits), for the picture below, the pre-code is for example \"Y186\":"; ObjectID = "Er6-RC-var"; */
+"Er6-RC-var.text" = "2. Ziehen Sie das Funkgerät zu sich heraus, um den Vorcode auf der Rückseite abzurufen (1 Buchstabe und 3 Ziffern), für das Bild unten lautet der Vorcode z.B. \"Y186\":";
+
+/* Class = "UILabel"; text = "RRCG"; ObjectID = "Gvr-Z1-24G"; */
+"Gvr-Z1-24G.text" = "RRCG";
+
+/* Class = "UILabel"; text = "          Tutorial"; ObjectID = "P1y-Kk-ziL"; */
+"P1y-Kk-ziL.text" = "Anleitung";
+
+/* Class = "UIButton"; normalTitle = "Validate"; ObjectID = "UTy-Wn-71N"; */
+"UTy-Wn-71N.normalTitle" = "Validieren Sie";
+
+/* Class = "UILabel"; text = " 1 ) Dismantle the car radio using a very rigid wire (or a nail) at the 4 holes in the front of the car radio :"; ObjectID = "YWz-SW-UfN"; */
+"YWz-SW-UfN.text" = " 1 ) Zerlegen Sie das Autoradio mit einem sehr steifen Draht (oder einem Nagel) an den 4 Löchern an der Vorderseite des Autoradios:";
+
+/* Class = "UIButton"; normalTitle = "Where can you find your code ?"; ObjectID = "aUh-0d-aVh"; */
+"aUh-0d-aVh.normalTitle" = "Wo können Sie Ihren Code finden?";
+
+/* Class = "UILabel"; text = "More details on this video\n"; ObjectID = "av7-3a-z6i"; */
+"av7-3a-z6i.text" = "Weitere Einzelheiten zu diesem Video\n";
+
+/* Class = "UITextField"; placeholder = "Precode"; ObjectID = "bQQ-IH-kgV"; */
+"bQQ-IH-kgV.placeholder" = "Precode";
+
+/* Class = "UILabel"; text = "RRCG"; ObjectID = "eB5-jg-dic"; */
+"eB5-jg-dic.text" = "RRCG";
+
+/* Class = "UILabel"; text = "Bar"; ObjectID = "f9O-s5-CQJ"; */
+"f9O-s5-CQJ.text" = "Bar";
+
+/* Class = "UILabel"; text = "Bar"; ObjectID = "oOi-HD-E3k"; */
+"oOi-HD-E3k.text" = "Bar";
+
+/* Class = "UILabel"; text = "Enter your precode"; ObjectID = "sTb-d1-XHD"; */
+"sTb-d1-XHD.text" = "Geben Sie Ihren Vorcode ein";
+
+/* Class = "UIBarButtonItem"; title = "dzq"; ObjectID = "sc0-4t-BLs"; */
+"sc0-4t-BLs.title" = "dzq";

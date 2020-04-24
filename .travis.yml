@@ -1,0 +1,11 @@
+language: swift #1
+osx_image: xcode11.3 #2
+
+install:
+- gem install xcpretty
+
+jobs:
+  include:
+    - script: xcodebuild clean build test -project RRCG.xcodeproj -scheme RRCG -destination "platform=iOS Simulator,name=iPhone 11,OS=13.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES | xcpretty -c
+      after_script: bash <(curl -s https://codecov.io/bash) -t 89a25205-c8a9-4125-aa41-3f2f150db6a1
+    - script: swiftlint

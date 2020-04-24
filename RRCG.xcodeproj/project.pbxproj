@@ -15,6 +15,7 @@
 		990B51552440C1D900C122BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990B51532440C1D900C122BC /* LaunchScreen.storyboard */; };
 		990B51602440C1DA00C122BC /* RRCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B515F2440C1DA00C122BC /* RRCGTests.swift */; };
 		990B516B2440C1DA00C122BC /* RRCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B516A2440C1DA00C122BC /* RRCGUITests.swift */; };
+		991609A72451A74C00E5CE8D /* changelog.md in Resources */ = {isa = PBXBuildFile; fileRef = 991609A62451A74B00E5CE8D /* changelog.md */; };
 		9952367D244A255E001571D2 /* FetchCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952367B244A255E001571D2 /* FetchCodeFile.swift */; };
 		9952367E244A255E001571D2 /* FetchCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952367C244A255E001571D2 /* FetchCode.swift */; };
 		99523681244A25A9001571D2 /* ressources in Resources */ = {isa = PBXBuildFile; fileRef = 99523680244A25A9001571D2 /* ressources */; };
@@ -60,6 +61,7 @@
 		990B51662440C1DA00C122BC /* RRCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRCGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990B516A2440C1DA00C122BC /* RRCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRCGUITests.swift; sourceTree = "<group>"; };
 		990B516C2440C1DA00C122BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991609A62451A74B00E5CE8D /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
 		9952367B244A255E001571D2 /* FetchCodeFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCodeFile.swift; sourceTree = "<group>"; };
 		9952367C244A255E001571D2 /* FetchCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCode.swift; sourceTree = "<group>"; };
 		99523680244A25A9001571D2 /* ressources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ressources; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		990B51392440C1D600C122BC = {
 			isa = PBXGroup;
 			children = (
+				991609A62451A74B00E5CE8D /* changelog.md */,
 				99523688244B8A37001571D2 /* README.md */,
 				99523683244B6DBD001571D2 /* .travis.yml */,
 				99D1607E2448D1E1009AD480 /* .swiftlint.yml */,
@@ -311,6 +314,7 @@
 				99523684244B6DBD001571D2 /* .travis.yml in Resources */,
 				99D1607F2448D1E1009AD480 /* .swiftlint.yml in Resources */,
 				990B51552440C1D900C122BC /* LaunchScreen.storyboard in Resources */,
+				991609A72451A74C00E5CE8D /* changelog.md in Resources */,
 				99523689244B8A37001571D2 /* README.md in Resources */,
 				990B51522440C1D900C122BC /* Assets.xcassets in Resources */,
 				990B514D2440C1D600C122BC /* Main.storyboard in Resources */,

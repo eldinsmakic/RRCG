@@ -1,8 +1,8 @@
 # RRCG
 
-[![Build Status](https://travis-ci.com/eldinsmakic/RRCG.svg?token=3uGXrshZxgEaX9feqvRC&branch=develop)](https://travis-ci.com/eldinsmakic/RRCG)
+[![Build Status](https://travis-ci.com/eldinsmakic/RRCG.svg?branch=master)](https://travis-ci.com/eldinsmakic/RRCG)
 
-[![codecov.io](https://codecov.io/github/eldinsmakic/RRCG/coverage.svg?branch=develop)](https://travis-ci.com/eldinsmakic/RRCG)
+[![codecov](https://codecov.io/gh/eldinsmakic/RRCG/branch/master/graph/badge.svg)](https://codecov.io/gh/eldinsmakic/RRCG)
 
 **Renault Radio Code Generator** help you when your car run out off battery and you need to enter again your radio code but you lost the page that contain it.
 RRCG find code by using your precode that is on the back of your radio
@@ -11,12 +11,14 @@ The idea is to design the app using **Adobe XD** and an UML creator (StarUML), t
 Its the first App and done like this, doing this will help to have a better creating process of an App.
 
 The steps are the following:
+
     - Think and design the app with Adobe XD
     - Think and design the business logic with an UML
     - Create the Front in the interface builder
     - Create the Back with test
 
 I used:
+
     - **Github** action to keep track of every feature/bugs
     - **Travis** to continious integration
     - **CodeCov** to see the code liability and quality test

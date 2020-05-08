@@ -12,18 +12,18 @@ Its the first App and done like this, doing this will help to have a better crea
 
 The steps are the following:
 
-    - Think and design the app with Adobe XD
-    - Think and design the business logic with an UML
-    - Create the Front in the interface builder
-    - Create the Back with test
+- Think and design the app with Adobe XD
+- Think and design the business logic with an UML
+- Create the Front in the interface builder
+- Create the Back with test
 
 I used:
 
-    - **Github** action to keep track of every feature/bugs
-    - **Travis** to continious integration
-    - **CodeCov** to see the code liability and quality test
-    - **Adobe XD** to design the app
-    - **StartUML** to create an UML
+- **Github** action to keep track of every feature/bugs
+- **Travis** to continious integration
+- **CodeCov** to see the code liability and quality test
+- **Adobe XD** to design the app
+- **StartUML** to create an UML
 
 ## Designing the APP
 
@@ -46,3 +46,10 @@ I begin with the iPhone design, i design first page where you can get the code a
 I try to design the business logic, how to create code from code, how the front logic will work with the button actions.
 
 ![Alt text](ressources/images/uml.png?raw=true "uml")
+
+## Tech use
+
+- **Interface Builder** (Front)
+- **AutoLayout** (Front)
+- **Localisation** for languages (Front)
+- **XCTest** (Back)
